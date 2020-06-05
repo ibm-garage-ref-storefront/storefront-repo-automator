@@ -1,0 +1,4 @@
+This invention relates to a drone, method and systems for displaying messages and/or images by using a group of one or more remotely controlled airborne drones provided with display means and controlled so the 
+messages and/or images are created and are visual by the display means of the group of airborne drones. The display means are controlled such that the messages and/or images are 2D or 3D respectively. 
+The display means may include LED's, OLED's or LCD based on means or DLP and/or laser projection means. The display of messages and/or images can be remotely controlled using a social gateway for airborne visualization,
+ enabling the integration of content from end-user and marketing clients based on the drone's geographic position and social media audience profile.
