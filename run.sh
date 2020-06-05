@@ -14,11 +14,11 @@ done
 
 sleep 5
 
-# fork repo
+# clone repo
 for repo in "${spring_repos[@]}"
 do 
     echo "Creating repo $repo " 
-    gh repo fork https://github.com/ibm-garage-ref-storefront/$repo
+    gh repo clone https://github.com/ibm-garage-ref-storefront/$repo
     
 done
 
@@ -32,7 +32,6 @@ do
     echo "cding to the repo"
     cd $repo
     pwd
-    rm -rf .git
     git init
     git add .
     git remote add origin https://github.com/$org/$repo
@@ -40,6 +39,7 @@ do
     git push -u origin master
     # cd ..
     echo "cding up"
+    cd ../
     pwd
 done
 
