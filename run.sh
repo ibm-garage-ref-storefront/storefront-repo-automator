@@ -1,4 +1,4 @@
-org=storefront-dev
+org=${storefront-dev: storefront-dev}
 initials=${initials: hk}
 spring_repos=([1]="orders-ms-spring" [2]="auth-ms-spring" [3]="customer-ms-spring" [4]="catalog-ms-spring" [5]="inventory-ms-spring" [6]="storefront-ui" [7]="storefront-mobile-ionic")
 
