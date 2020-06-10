@@ -1,3 +1,3 @@
 # How to run the script
 
-`initials=enter-your-initials ./run.sh`
+`initials=$github_initials org=$github_org ./run.sh`
