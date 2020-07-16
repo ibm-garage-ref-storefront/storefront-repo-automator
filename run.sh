@@ -1,4 +1,4 @@
-spring_repos=([1]="orders-ms-spring" [2]="auth-ms-spring" [3]="customer-ms-spring" [4]="catalog-ms-spring" [5]="inventory-ms-spring" [6]="storefront-ui" [7]="storefront-mobile-ionic")
+spring_repos=([1]="orders-ms-spring" [2]="auth-ms-spring" [3]="customer-ms-spring" [4]="catalog-ms-spring" [5]="inventory-ms-spring" [6]="storefront-ui" [7]="storefront-mobile")
 
 cd ..
 # create empty repo
