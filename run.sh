@@ -3,16 +3,16 @@ spring_repos=([1]="orders-ms-spring" [2]="auth-ms-spring" [3]="customer-ms-sprin
 cd ..
 # create empty repo
 for repo in "${spring_repos[@]}"
-do 
+do
     echo "Creating repo:" "$org"/"$initials""$repo"
     pwd
-    echo -e "n" | gh repo create "$org"/"$initials""$repo" --public
+    echo -e "n" | gh repo create "$org"/"$initials""$repo" --public -y
 done
 sleep 5
 
 # clone repo
 for repo in "${spring_repos[@]}"
-do 
+do
     echo "Cloning repos from ibm-garage-ref-storefront/"$repo""
     gh repo clone https://github.com/ibm-garage-ref-storefront/"$repo"
 done
@@ -20,7 +20,7 @@ sleep 5
 
 # Push all new repos to the org
 for repo in "${spring_repos[@]}"
-do 
+do
     echo "Pushing repo " "$org"/"$initials""$repo"
     cd $repo
     rm -rf .git
@@ -32,4 +32,3 @@ do
     cd ../
     pwd
 done
-
